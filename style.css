@@ -1,0 +1,90 @@
+
+.container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap:15px;
+  
+}
+
+.h1{
+      padding: 20px;
+      height: 150px;
+      width:80px;
+      margin: 10px;
+      background-color:white;
+      border-radius: 10px;
+      box-shadow: 2px 1px 2px 1px black;
+      border-color: black;
+}
+.heros{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: right;
+}
+.h1 img{
+  width:70px;
+  height:70px;
+  align-items: center;
+  justify-content: center;
+}
+
+.v1{
+  padding: 20px;
+  height: 150px;
+  width:80px;
+  margin: 10px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 2px 1px 2px 1px black;
+      border-color: black;
+}
+.villans{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: left;
+}
+
+.v1 img{
+  width:70px;
+  height:70px;
+  align-items: center;
+  justify-content:right;
+}
+.score{
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.h1 .v1 p h2{
+     margin:auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.strength{
+  position: relative;
+  font-family:'Times New Roman', Times, serif;
+  top:-15px;
+  text-align: center;
+  font-size: 30px;
+}
+
+@media all and (max-width:480px)
+{
+  .score{
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      font-family:Verdana, Geneva, Tahoma, sans-serif;
+      font-size: 40px;
+      font-weight: bold;
+  }
+}
